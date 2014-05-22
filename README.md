@@ -3,14 +3,15 @@ Yii-PHPJavaBridge
 
 Yii component for connecting PHP with Java Virtual Machine
 
-Installation
+## Installation
 
 Copy this repo to yii extensions dir.
 
-Configure
+## Configure
 
 Add this component to config.php:
 
+```
 return array(
 	...
 	
@@ -23,8 +24,11 @@ return array(
 	
 	...
 );
+```
 
-Usage
+## Usage
 
+```
 $bridge = Yii::app()->java->getInstance();
 echo $bridge->java("java.lang.Long")->MAX_VALUE;
+```
