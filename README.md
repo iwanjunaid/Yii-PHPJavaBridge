@@ -9,7 +9,7 @@ Copy this repo to yii extensions dir.
 
 ## Configure
 
-Add this component to config.php:
+Add this component to protected/config/main.php:
 
 ```
 return array(
